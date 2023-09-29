@@ -3,7 +3,11 @@ import dotenv from "dotenv";
 import products from "./data/products.js";
 
 dotenv.config();
+import connectDB from "./config/db.js";
+
 const port = process.env.PORT || 5000;
+
+connectDB(); // To connect mongoDB 
 
 const app = express();
 
