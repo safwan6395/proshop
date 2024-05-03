@@ -1,5 +1,5 @@
 {
-  "name": "proshop",
+  "name": "proshop", 
   "version": "1.0.0",
   "description": "eCommerece platform to buy all tech items",
   "main": "server.js",
